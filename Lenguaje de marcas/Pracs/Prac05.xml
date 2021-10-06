@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<club_deportivo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNombrespaceSchemaLocation="Prac05.xsd"> 
+
+	<persona> 
+ 		<nom_completo>Pepe</nom_completo> 
+ 		<antiguedad>4</antiguedad>
+ 		<poblacion>Catarroja</poblacion>
+ 	</persona> 
+
+ 	<persona> 
+ 		<nom_completo>Ana</nom_completo> 
+ 		<antiguedad>5</antiguedad>
+ 		<poblacion>Albal</poblacion>
+ 	</persona> 
+
+ 	<persona> 
+ 		<nom_completo>Juan</nom_completo> 
+ 		<antiguedad>3</antiguedad>
+ 		<poblacion>Catarroja</poblacion>
+ 	</persona> 
+
+ </club_deportivo>
