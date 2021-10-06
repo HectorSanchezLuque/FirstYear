@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNombrespaceSchemaLocation="Prac04.xsd"> 
+
+ 	<persona> 
+ 		<nom_completo>Pepe López</nom_completo> 
+ 		<nom_hijo>Pepito</nom_hijo> 
+ 	</persona> 
+ 	
+ 	<persona> 
+ 		<nom_completo>Ana García</nom_completo> 
+ 		<nom_hijo>Anita</nom_hijo> 
+ 		<nom_hijo>Juanito</nom_hijo> 
+ 		<nom_hijo>Evita</nom_hijo> 
+ 		<nom_hijo>Luisito</nom_hijo> 
+	</persona> 
+	
+	<persona> 
+		<nom_completo>Juan Pérez</nom_completo> 
+	</persona> 
+
+</personas> 

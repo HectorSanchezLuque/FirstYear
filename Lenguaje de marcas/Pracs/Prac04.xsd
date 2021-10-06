@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Prac04" xmlns:tns="http://www.example.org/Prac04" elementFormDefault="qualified">
+
+<xs:element name="personas">
+	<xs:complexType>
+	<xs:sequence>
+
+		
+
+		<xs:element name="persona">
+			<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nom_completo" type="xs:string" minOccurs="1" maxOccurs="2"/>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[a-zA-Z]{*}"/>
+						</xs:restriction>
+					</xs:simpleType>
+				<xs:element name="nom_hijo" type="xs:string" minOccurs="0"/>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[a-zA-Z]{*}"/>
+						</xs:restriction>
+					</xs:simpleType>
+			</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+
+		
+	</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</schema>
+
