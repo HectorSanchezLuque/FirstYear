@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT arboles (nombrecientifico)+>
+<!ELEMENT nombrecientifico (nombrecomun, vegetacion ,altura ,formaestructura,color ,resistencia)?>
+<!ELEMENT nombrecomun (#PCDATA)>
+<!ELEMENT vegetacion (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT formaestructura (#PCDATA)>
+<!ELEMENT resistencia (#PCDATA)>
+<!ELEMENT color (primavera| verano |otono |inverno)+>
+<!ELEMENT primavera (#PCDATA)>
+<!ELEMENT verano (#PCDATA)>
+<!ELEMENT otono (#PCDATA)>
+<!ELEMENT invierno (#PCDATA)>

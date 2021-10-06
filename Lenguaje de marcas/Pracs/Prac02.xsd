@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<xs:complexType name="vehiculos">
+<xs:sequence>
+		<xs:complexType name="vehiculo">
+		<xs:sequence>
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="modelo" type="xs:string"/>
+				<xs:complexType name="datos_reparacion">
+				<xs:sequence>	  		
+	  				<xs:complexType name="inicio">
+					<xs:sequence>
+				  		<xs:element name="dia" type="xs:integer"/>
+				  		<xs:element name="mes" type="xs:string"/>
+				  		<xs:element name="anyo" type="xs:integer"/>
+				  	</xs:sequence>
+				  	</xs:complexType>
+					<complexType name="fin">
+					<xs:sequence>
+				  		<xs:element name="dia" type="xs:integer"/>
+				  		<xs:element name="mes" type="xs:string"/>
+				  		<xs:element name="anyo" type="xs:integer"/>
+	  				</xs:sequence>
+	  				</complexType>
+	  			</xs:sequence>
+	  			</xs:complexType>
+	  			<xs:complexType name="reparaciones">
+	  			<xs:sequence>
+				  	<xs:element name="reparacion" type="xs:string"/>
+				  	<xs:element name="reparacion" type="xs:string"/>
+				  	<xs:element name="reparacion" type="xs:string"/>
+				  	<xs:element name="reparacion" type="xs:string"/>
+				</xs:sequence>
+				</xs:complexType>
+		</xs:sequence>
+		</xs:complexType>
+</xs:sequence>
+</xs:complexType>
+
+
+
+
+
+

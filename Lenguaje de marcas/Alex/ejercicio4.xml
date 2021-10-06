@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<arboles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<nombrecientifico>
+		
+		<nombrecomun>Arce de Montpellier, Arce menor</nombrecomun>
+		<vegetacion>Caducifolio</vegetacion>
+		<altura>De 6 a 10 metros</altura>
+		<formaestructura>Copa esférica. Tronco principal recto con
+			bifurcaciones. Ramaje colgante</formaestructura>
+		<color>
+			<primavera>Haz verde brillante, envés verde blanquecino</primavera>
+		</color>
+		<resistencia>Heladas fuertes (hasta -15oC)</resistencia>
+	</nombrecientifico>
+
+
+	<nombrecientifico>
+		
+		<nombrecomun>Olivo</nombrecomun>
+		<vegetacion>Perenne</vegetacion>
+		<altura>De 8 a 15 metros</altura>
+		<formaestructura>Copa irregular. Tronco principal irregular con
+			bifurcaciones. Ramaje tortuoso</formaestructura>
+		<color>
+			<primavera>Haz verde oscuro, envés verde plateado</primavera>
+			
+		</color>
+		<resistencia>Heladas medias (hasta -10oC)</resistencia>
+	</nombrecientifico>
+
+
+	<nombrecientifico>
+		
+		<nombrecomun>Plátano</nombrecomun>
+		<vegetacion>Caducifolio</vegetacion>
+		<altura>De 20 a 25 metros</altura>
+		<formaestructura>Copa ovoidal. Tronco principal recto. Ramaje
+			expandido</formaestructura>
+		<color>
+			<primavera>Haz verde medio, envés verde claro</primavera>
+			<otono>Ocre</otono>
+		</color>
+		<resistencia>Heladas fuertes (hasta -20oC)</resistencia>
+	</nombrecientifico>
+</arboles>

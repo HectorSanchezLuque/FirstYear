@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE alumnos[
+<!ELEMENT alumnos (alumno)+>
+<!ELEMENT alumno (dni+,nombre,titulacion,curso_academico,domicilios)>
+<!ELEMENT domicilios (domicilio+)>
+<!ELEMENT domicilio (calle,cp,poblacion,provincia)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT titulacion (#PCDATA)>
+<!ELEMENT curso_academico (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ATTLIST domicilio tipo (familiar|habitual) #REQUIRED>
+]>
+
+<alumnos>
+	<alumno>
+		<dni>12345678X</dni>
+		<nombre>Inés García Martín</nombre>
+		<titulacion>Técnico Superior en DAM</titulacion>
+		<curso_academico>2016/2017</curso_academico>
+		<domicilios>
+			<domicilio tipo="familiar">
+				<calle>C/ Perú, no 7, 5o C</calle>
+				<cp>15010</cp>
+				<poblacion>A Coruña</poblacion>
+				<provincia>A Coruña</provincia>
+			</domicilio>
+			<domicilio tipo="habitual">
+				<calle>C/ Abeleira, no 3, 4o</calle>
+				<cp>15679</cp>
+				<poblacion>O Temple</poblacion>
+				<provincia>A Coruña</provincia>
+			</domicilio>
+		</domicilios>
+	</alumno>
+</alumnos>

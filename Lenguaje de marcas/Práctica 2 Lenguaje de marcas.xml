@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+	<libro>
+		<titulo>La Divina Comedia</titulo>
+		<editorial>Alianza</editorial>
+		<fecha_de_publicacion>05/11/2013</fecha_de_publicacion>
+		<isbn>978-84-206-8288-4</isbn>
+		<nombre_autor>Dante Alighieri</nombre_autor>
+		<pais_de_origen>Italia</pais_de_origen>
+	</libro>
+
+	<libro>
+		<titulo>El Último Deseo</titulo>
+		<editorial>Alamut</editorial>
+		<fecha_de_publicacion>05/08/2017</fecha_de_publicacion>
+		<isbn>10-8498890373</isbn>
+		<nombre_autor>Andrzej Sapkowski</nombre_autor>
+		<pais_de_origen>Polonia</pais_de_origen>
+	</libro>
+
+	<libro>
+		<titulo>La Sangre de los Elfos</titulo>
+		<editorial>Alamut</editorial>
+		<fecha_de_publicacion>05/08/2017</fecha_de_publicacion>
+		<isbn>978-8498890457</isbn>
+		<nombre_autor>Andrzej Sapkowski</nombre_autor>
+		<pais_de_origen>Polonia</pais_de_origen>
+	</libro>
+
+	<libro>
+		<titulo>La Espada del destino</titulo>
+		<editorial>Alamut</editorial>
+		<fecha_de_publicacion>13/11/2015</fecha_de_publicacion>
+		<isbn>978-84-206-8288-4</isbn>
+		<nombre_autor>Dante Alighieri</nombre_autor>
+		<pais_de_origen>Italia</pais_de_origen>
+	</libro>
+
+	<libro>
+		<titulo>Crónica de una muerte anunciada</titulo>
+		<editorial>Debolsillo</editorial>
+		<fecha_de_publicacion>10/03/2021</fecha_de_publicacion>
+		<isbn>10-8466350896</isbn>
+		<nombre_autor>Gabriel Garcia Márquez</nombre_autor>
+		<pais_de_origen>Colombia</pais_de_origen>
+	</libro>
+</libreria>

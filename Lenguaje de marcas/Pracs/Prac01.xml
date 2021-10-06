@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<nota xmlns=xsi:noNamespaceschemaLocation="mensaje.xsd">
+ <para>
+	<para>Pepe</para> 
+	<de>Ana</de> 
+	<titulo>Próxima reunión</titulo> 
+	<contenido>A las 11:00 en la sala D.1.2. Será media hora</contenido> 
+</nota> 
+
+

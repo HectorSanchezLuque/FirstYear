@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factura>
+
+
+	<d_Empresa>
+		<cif_empresa>A28017895</cif_empresa>
+		<nombre_empresa>El Corte Inglés</nombre_empresa>
+		<direccion_empresa>Carrer de Colón, 18, 4ª Planta, Valencia</direccion_empresa>
+		<telf_empresa>963 944 926</telf_empresa>
+	</d_Empresa>
+
+
+	<datos_cliente>
+		<cif_cliente>14298675I</cif_cliente>
+		<nombre_cliente>Antonio Pérez Villalba</nombre_cliente>
+		<direccion_cliente>C/Ramiro Maeztú</direccion_cliente>
+		<telf_cliente>622867702</telf_cliente>
+	</datos_cliente>
+
+
+	<d_factura>
+		<num_factura>000471283</num_factura>
+		<fecha>10/08/2021</fecha>
+	</d_factura>
+
+	<datos_productos>
+		<producto>
+			<codigo>00034</codigo>
+			<nombre_prod>Lápiz</nombre_prod>
+			<precio_unitario>0,80€</precio_unitario>
+			<iva>21%</iva>
+			<unidades_totales>5</unidades_totales>
+			<importe_total>4,84€</importe_total>
+		</producto>
+		<producto>
+			<codigo>000462</codigo>
+			<nombre_prod>Bolígrafo VIC</nombre_prod>
+			<precio_unitario>1€</precio_unitario>
+			<iva>21%</iva>
+			<unidades_totales>1</unidades_totales>
+			<importe_total>1,21€</importe_total>
+		</producto>
+	</datos_productos>
+
+
+
+</factura>

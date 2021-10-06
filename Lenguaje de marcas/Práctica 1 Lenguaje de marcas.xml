@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taller>
+	<vehiculo>
+		<matricula>5649 JSN</matricula>
+		<marca>Toyota</marca>
+		<modelo>X</modelo>
+		<fecha_de_reparacion>14/06/2021</fecha_de_reparacion>
+		<nombre_del_mecanico>Antonio</nombre_del_mecanico>
+	</vehiculo>
+
+	<vehiculo>
+		<matricula>2093 HIH</matricula>
+		<marca>Citroen</marca>
+		<modelo>X</modelo>
+		<fecha_de_reparacion>27/11/2020</fecha_de_reparacion>
+		<nombre_del_mecanico>Pepe</nombre_del_mecanico>
+	</vehiculo>
+
+	<vehiculo>
+		<matricula>2873 MWN</matricula>
+		<marca>Ford</marca>
+		<modelo>X</modelo>
+		<fecha_de_reparacion>16/04/2019</fecha_de_reparacion>
+		<nombre_del_mecanico>Federico</nombre_del_mecanico>
+	</vehiculo>
+
+	<vehiculo>
+		<matricula>5810 USH</matricula>
+		<marca>Seat</marca>
+		<modelo>X</modelo>
+		<fecha_de_reparacion>19/08/2020</fecha_de_reparacion>
+		<nombre_del_mecanico>Julián</nombre_del_mecanico>
+	</vehiculo>
+	
+	<vehiculo>
+		<matricula>7281 HUV</matricula>
+		<marca>Nissan</marca>
+		<modelo>X</modelo>
+		<fecha_de_reparacion>11/03/2020</fecha_de_reparacion>
+		<nombre_del_mecanico>Evaristo</nombre_del_mecanico>
+</taller>

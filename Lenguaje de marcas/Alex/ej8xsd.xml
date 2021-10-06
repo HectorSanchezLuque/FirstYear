@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej8xsd.xsd">
+	<alumno>
+		<dni>12345678X</dni>
+		<nombre>Inés García Martín</nombre>
+		<titulacion>Técnico Superior en DAM</titulacion>
+		<curso_academico>2016/2017</curso_academico>
+		<domicilios>
+			<domicilio tipo="familiar">
+				<calle>C/ Perú, no 7, 5o C</calle>
+				<cp>15010</cp>
+				<poblacion>A Coruña</poblacion>
+				<provincia>A Coruña</provincia>
+			</domicilio>
+			<domicilio tipo="habitual">
+				<calle>C/ Abeleira, no 3, 4o</calle>
+				<cp>15679</cp>
+				<poblacion>O Temple</poblacion>
+				<provincia>A Coruña</provincia>
+			</domicilio>
+		</domicilios>
+	</alumno>
+</alumnos>

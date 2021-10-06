@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+
+<vehiculos xmlns=xsi:noNamespaceschemaLocation="mensaje.xsd">
+	
+	<vehiculo> 
+		<nombre>Seat Ibiza</nombre> 
+		<modelo>1800 5 puertas</modelo>
+		<datos_reparacion> 
+			<inicio> 
+				<dia>12</dia> 
+				<mes>Mayo</mes> 
+				<anyo>2018</anyo> 
+			</inicio> 
+			<fin> 
+				<dia>16</dia> 
+				<mes>mayo</mes> 
+				<anyo>2018</anyo> 
+			</fin> 
+		</datos_reparacion> 
+		<reparaciones> 
+			<reparacion>Cambio aceite</reparacion> 
+			<reparacion>Cambio de ruedas</reparacion> 
+			<reparacion>Revisión sistema frenado</reparacion> 
+			<reparacion>Pintar</reparacion> 
+		</reparaciones> 
+	</vehiculo> 
+	
+</vehiculos>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<equipos_de_futbol>
+
+	<futbol_8>
+
+		<benjamines>
+			<equipo_A>
+				<kids>
+					<kid>
+						<nombre>Roberto</nombre>
+						<f_nacimiento>13/07/2005</f_nacimiento>
+						<dorsal>23</dorsal>
+					</kid>
+					<kid>
+						<nombre>Sergei</nombre>
+						<f_nacimiento>15/06/2006</f_nacimiento>
+						<dorsal>14</dorsal>
+					</kid>
+				</kids>
+			</equipo_A>
+			
+			<equipo_b>
+				<kids>
+					<kid>
+						<nombre>Alberto</nombre>
+						<f_nacimiento>06/08/2005</f_nacimiento>
+						<dorsal>26</dorsal>
+					</kid>
+					<kid>
+						<nombre>Luis</nombre>
+						<f_nacimiento>09/08/2005</f_nacimiento>
+						<dorsal>05</dorsal>
+					</kid>
+				</kids>
+			</equipo_b>
+		</benjamines>
+
+		<alevines>
+			<equipo_A>
+				<kids>
+					<kid>
+						<nombre>Artyom</nombre>
+						<f_nacimiento>06/09/2003</f_nacimiento>
+						<dorsal>13</dorsal>
+					</kid>
+					<kid>
+						<nombre>Dante</nombre>
+						<f_nacimiento>6/06/2006</f_nacimiento>
+						<dorsal>66</dorsal>
+					</kid>
+				</kids>
+			</equipo_A>
+
+			<equipo_b>
+				<kids>
+					<kid>
+						<nombre>Grenouille</nombre>
+						<f_nacimiento>14/02/2002</f_nacimiento>
+						<dorsal>14</dorsal>
+					</kid>
+					<kid>
+						<nombre>Barbanegra</nombre>
+						<f_nacimiento>26/03/2004</f_nacimiento>
+						<dorsal>04</dorsal>
+					</kid>
+				</kids>
+			</equipo_b>
+		</alevines>
+
+	</futbol_8>
+
+	<futbol_11>
+		<infantiles>
+			<equipo_A>
+				<kids>
+					<kid>
+						<nombre>Ivankov</nombre>
+						<f_nacimiento>16/05/2003</f_nacimiento>
+						<dorsal>17</dorsal>
+					</kid>
+					<kid>
+						<nombre>Iosif</nombre>
+						<f_nacimiento>29/07/2004</f_nacimiento>
+						<dorsal>23</dorsal>
+					</kid>
+				</kids>
+			</equipo_A>
+
+			<equipo_b>
+				<kids>
+					<kid>
+						<nombre>Karl M.</nombre>
+						<f_nacimiento>17/04/2003</f_nacimiento>
+						<dorsal>11</dorsal>
+					</kid>
+					<kid>
+						<nombre>Adolf</nombre>
+						<f_nacimiento>15/02/2005</f_nacimiento>
+						<dorsal>03</dorsal>
+					</kid>
+				</kids>
+			</equipo_b>
+		</infantiles>
+
+		<cadetes>
+			<equipo_A>
+				<kids>
+					<kid>
+						<nombre>Pepe</nombre>
+						<f_nacimiento>23/08/2003</f_nacimiento>
+						<dorsal>15</dorsal>
+					</kid>
+					<kid>
+						<nombre>Vladimir</nombre>
+						<f_nacimiento>25/07/2003</f_nacimiento>
+						<dorsal>16</dorsal>
+					</kid>
+				</kids>
+			</equipo_A>
+
+			<equipo_b>
+				<kids>
+					<kid>
+						<nombre>Miguel</nombre>
+						<f_nacimiento>04/05/2006</f_nacimiento>
+						<dorsal>16</dorsal>
+					</kid>
+					<kid>
+						<nombre>Yoel</nombre>
+						<f_nacimiento>17/09/2003</f_nacimiento>
+						<dorsal>46</dorsal>
+					</kid>
+				</kids>
+			</equipo_b>
+
+		</cadetes>
+
+		<juveniles>
+			<equipo_A>
+				<kids>
+					<kid>
+						<nombre>Pedro</nombre>
+						<f_nacimiento>18/05/2003</f_nacimiento>
+						<dorsal>41</dorsal>
+					</kid>
+					<kid>
+						<nombre>Alejandro</nombre>
+						<f_nacimiento>17/11/2006</f_nacimiento>
+						<dorsal>71</dorsal>
+					</kid>
+				</kids>
+			</equipo_A>
+
+			<equipo_b>
+				<kids>
+					<kid>
+						<nombre>Oliver</nombre>
+						<f_nacimiento>15/12/2003</f_nacimiento>
+						<dorsal>87</dorsal>
+					</kid>
+					<kid>
+						<nombre>José</nombre>
+						<f_nacimiento>15/08/2001</f_nacimiento>
+						<dorsal>98</dorsal>
+					</kid>
+				</kids>
+			</equipo_b>
+		</juveniles>
+	
+	</futbol_11>
+
+
+</equipos_de_futbol>

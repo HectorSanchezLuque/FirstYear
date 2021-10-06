@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE  tablaperiodica [
+<!ELEMENT tablaperiodica (elemento |compuesto)+>
+<!ELEMENT elemento (numeroatomico, masaatom, simbolo,nombre)+>
+<!ELEMENT numeroatomico (#PCDATA)>
+<!ELEMENT masaatom (#PCDATA)>
+<!ELEMENT simbolo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST elemento estado (solido|liquido|gas|sintetico) #REQUIRED>
+<!ATTLIST elemento grupo (metalligero| nometal| gasnoble| metaltransicioninterna) #REQUIRED>
+<!ATTLIST elemento num ID #REQUIRED>
+<!ATTLIST compuesto refer IDREFS #REQUIRED>
+<!ELEMENT compuesto (nombres,formula,puntofusion,masamolar,densidad)+>
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT formula (#PCDATA)>
+<!ELEMENT puntofusion (#PCDATA)>
+<!ELEMENT masamolar (#PCDATA)>
+<!ELEMENT densidad (#PCDATA)>
+
+
+]>
+
+<tablaperiodica>
+	<elemento num="Ca" estado="solido" grupo="metalligero">
+		<numeroatomico>20</numeroatomico>
+		<masaatom>40.3</masaatom>
+		<simbolo>Ca</simbolo>
+		<nombre>Calcio</nombre>
+
+	</elemento>
+
+	<elemento num="S" estado="solido" grupo="nometal">
+		<numeroatomico>16</numeroatomico>
+		<masaatom>32.1</masaatom>
+		<simbolo>S</simbolo>
+		<nombre>Azufre</nombre>
+	</elemento>
+	<elemento num="O" estado="gas" grupo="nometal">
+		<numeroatomico>8</numeroatomico>
+		<masaatom>16</masaatom>
+		<simbolo>O</simbolo>
+		<nombre>Oxigeno</nombre>
+	</elemento>
+	<elemento num="H" estado="gas" grupo="metalligero">
+		<numeroatomico>1</numeroatomico>
+		<masaatom>1</masaatom>
+		<simbolo>H</simbolo>
+		<nombre>Hidrogeno</nombre>
+	</elemento>
+
+	<compuesto refer="H O">
+		<nombres>agua</nombres>
+		<formula>H2O</formula>
+		<puntofusion>0º</puntofusion>
+		<masamolar>18,02</masamolar>
+		<densidad>999,87</densidad>
+
+	</compuesto>
+
+	<compuesto refer="Ca O">
+		<nombres>Óxido de calcio</nombres>
+		<formula>CaO</formula>
+		<puntofusion>2572</puntofusion>
+		<masamolar>56,08 g/mol</masamolar>
+		<densidad>3,35 g/cm3</densidad>
+
+	</compuesto>
+	<compuesto refer="S O H">
+		<nombres>Ácido sulfúrico</nombres>
+		<formula>SO4H2</formula>
+		<puntofusion>10</puntofusion>
+		<masamolar>98,08 g/mol</masamolar>
+		<densidad>1,84 g/cm3</densidad>
+
+	</compuesto>
+
+
+
+</tablaperiodica>

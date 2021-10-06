@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<pedidos xmlns=xsi:noNamespaceschemaLocation="mensaje.xsd">
+	<pedido numpedido="889923"> 
+	 <empleadoresponsable>Pepe López</empleadoresponsable> 
+	 	<enviar_a> 
+			<nomcliente>Ana García</nomcliente> 
+			<direccion>C/ Mayor, 5</direccion> 
+			<ciudad>46470 Catarroja</ciudad> 
+			<pais>España</pais> 
+ 		</enviar_a> 
+		 <producto> 
+			 <titulo>El Quijote</titulo> 
+			 <nota>Edición especial</nota> 
+			 <cantidad>1</cantidad> 
+			 <precio>15.90</precio> 
+		 </producto> 
+ 		 <producto> 
+			 <titulo>Misión Imposible</titulo> 
+			 <cantidad>1</cantidad> 
+			 <precio>9.90</precio> 
+		 </producto> 
+	</pedido>
+</pedidos>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carta_restaurante>
+	<desayunos>
+		<desayuno_1>
+			<nombre>Tostada de Pavo</nombre>
+			<precio>1,20€</precio>
+			<calorias>61 cal</calorias>
+			<ingredientes>Pan y pavo</ingredientes>
+		</desayuno_1>
+		<desayuno_2>
+			<nombre>Gofres</nombre>
+			<precio>3,20€</precio>
+			<calorias>638 kcal</calorias>
+			<ingredientes>Harina, mantequilla y huevo</ingredientes>
+		</desayuno_2>
+	</desayunos>
+
+	<comidas>
+		<comida_1>
+			<nombre>Lasagna</nombre>
+			<precio>6€</precio>
+			<calorias>99 kcal</calorias>
+			<ingredientes>tomate, queso, cerdo, ternera...</ingredientes>
+		</comida_1>
+		<comida_2>
+			<nombre>Carne con patatas</nombre>
+			<precio>6€</precio>
+			<calorias>123 kcal</calorias>
+			<ingredientes>carne y patatas</ingredientes>
+		</comida_2>
+	</comidas>
+
+		<cenas>
+			<cena_1>
+				<nombre>Pizza BBQ</nombre>
+				<precio>7€</precio>
+				<calorias>1046 cal</calorias>
+				<ingredientes>Carne, queso, salsa barbacoa...</ingredientes>
+			</cena_1>
+			<cena_2>
+				<nombre>Carne Asada</nombre>
+				<precio>11€</precio>
+				<calorias>1294 cal</calorias>
+				<ingredientes>Carne</ingredientes>
+			</cena_2>
+		</cenas>
+</carta_restaurante>

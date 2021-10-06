@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<xs:complexType name="pedidos">
+<xs:sequence>
+	<xs:complexType name="pedido">
+	<xs:sequence>
+		<xs:element name="empleadoresponsable" type="xs:string"/>
+			<xs:complexType name="enviar_a">
+			<xs:sequence>
+				<xs:element name="nomcliente" type="xs:string"/>
+				<xs:element name="direccion" type="xs:string"/>
+				<xs:element name="ciudad" type="xs:string"/>
+				<xs:element name="pais" type="xs:string"/>
+			</xs:sequence>
+			</xs:complexType>
+
+			<xs:complexType name="producto">
+			<xs:sequence>
+				<xs:element name="titulo" type="xs:string"/>
+				<xs:element name="nota" type="xs:string"/>
+				<xs:element name="cantidad" type="xs:integer"/>
+				<xs:element name="precio" type="xs:integer"/>
+			</xs:sequence>
+			</xs:complexType>
+
+			<xs:complexType name="producto">
+			<xs:sequence>
+				<xs:element name="titulo" type="xs:string"/>
+				<xs:element name="cantidad" type="xs:integer"/>
+				<xs:element name="precio" type="xs:integer"/>
+			</xs:sequence>
+			</xs:complexType>
+	</xs:sequence>
+	</xs:complexType>
+</xs:sequence>
+</xs:complexType>
+
+
