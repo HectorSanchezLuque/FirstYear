@@ -17,5 +17,6 @@ if (confirmador == true) {
 
 } else if (trys == 5) {
     console.log("Te has quedado sin intentos, fiera");
+    console.log(trys)
 }
 
