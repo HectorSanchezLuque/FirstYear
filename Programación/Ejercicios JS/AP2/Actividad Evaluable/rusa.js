@@ -21,7 +21,7 @@ while (multiplicador >= 2) {
     }
     multiplicando = multiplicando * 2;
     multiplicandoTotal = multiplicando + multiplicandoTotal;
-    console.log(multiplicador, Math.trunc(multiplicando,), acumulacion);
+    console.log(multiplicador, Math.trunc(multiplicando), acumulacion);
 }
 
 
