@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNombrespaceSchemaLocation="Prac04.xsd">
+
+
+	<libro>
+		<nombre>La sombra del viento</nombre>
+		<autor>Carlos Ruíz Zafón</autor>
+		<year>2002</year>
+		<num_pags>565</num_pags>
+		<editorial>Planeta</editorial>
+	</libro>
+
+	<libro>
+		<nombre>El tiempo entre costuras</nombre>
+		<autor>María Dueñas</autor>
+		<year>2010</year>
+		<num_pags>640</num_pags>
+		<editorial>Planeta</editorial>
+	</libro>
+
+	<libro>
+		<nombre>El Asedio</nombre>
+		<autor> Arturo Pérez Reverte</autor>
+		<year>2010</year>
+		<num_pags>736</num_pags>
+		<editorial>Alfaguara</editorial>
+	</libro>
+
+</libreria>
+

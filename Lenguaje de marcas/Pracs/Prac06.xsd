@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Prac04" xmlns:tns="http://www.example.org/Prac04" elementFormDefault="qualified">
+
+
+
+<xs:element name="libreria">
+	<xs:complexType>
+	<xs:sequence>
+
+		<xs:element name="libro">
+			<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:string" maxOccurs="1"/>
+					<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-zA-Z]{*}"/>
+					</xs:restriction>
+					</xs:simpleType>
+				<xs:element name="autor" type="xs:string" maxOccurs="1"/>
+					<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-zA-Z; 0-9]{*}"/>
+					</xs:restriction>
+					</xs:simpleType>
+				<xs:element name="year" type="xs:integer" maxOccurs="1"/>
+					<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:pattern value="[0-9]{*}"/>
+					</xs:restriction>
+					</xs:simpleType>
+				<xs:element name="num_pags" type="xs:integer" maxOccurs="1"/>
+					<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:pattern value="[0-9]{*}"/>
+					</xs:restriction>
+					</xs:simpleType>
+				<xs:element name="editorial" type="xs:string" maxOccurs="1"/>
+					<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-zA-Z]{*}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+	</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</schema>
+
