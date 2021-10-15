@@ -14,14 +14,18 @@ multiplicador = readlineSync.questionInt("Dime el multiplicador ");
 
 
 
-while (multiplicador >= 2) {
+while (multiplicador > 1) {
     multiplicador = Math.trunc(multiplicador / 2);
+
     if (multiplicador % 2 !== 0) {
         acumulacion = multiplicando*2;
     }
+
     multiplicando = multiplicando * 2;
+
     multiplicandoTotal = multiplicando + multiplicandoTotal;
-    console.log(multiplicador, Math.trunc(multiplicando), acumulacion);
+
+    console.log(multiplicador, Math.trunc(multiplicando,), acumulacion);
 }
 
 

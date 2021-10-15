@@ -13,12 +13,12 @@ n = 22 + d + e;
 
 if (n <= 31) {
     mes = "Marzo";
-}
-if (n >= 32 && n <= 61) {
+} else { (n >= 32 && n <= 61) 
     mes = "Abril";
-    n = n - 31
+    n = n - 31;
     if (n == 0) {
         n = 1
     }
 }
+
 console.log("El domingo de pascua cae el ", n, "de ", mes);
