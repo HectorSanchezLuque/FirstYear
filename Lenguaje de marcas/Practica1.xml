@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNombrespaceSchemaLocation="Practica1.xslt">
+
+	<alumno>
+		<nombre>Pepe</nombre>
+		<asignatura>Matemáticas</asignatura>
+		<nota>7,8</nota>
+		<fecha>4/3/2014</fecha>
+	</alumno>
+
+	<alumno>
+		<nombre>Ana</nombre>
+		<asignatura>Literatura</asignatura>
+		<nota>7,2</nota>
+		<fecha>5/3/2014</fecha>
+	</alumno>
+
+	<alumno>
+		<nombre>Juan</nombre>
+		<asignatura>Inglés</asignatura>
+		<nota>8,3</nota>
+		<fecha>6/3/2014</fecha>
+	</alumno>
+
+	<alumno>
+		<nombre>Pepe</nombre>
+		<asignatura>Inglés</asignatura>
+		<nota>8,1</nota>
+		<fecha>6/3/2014</fecha>
+	</alumno>
+
+</alumnos>
