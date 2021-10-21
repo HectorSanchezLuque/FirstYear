@@ -6,6 +6,7 @@ function calculaSuma(numeritos, numeritos2) {
                 sumaTotal = sumaTotal + a
             }
         }
+        
     } else {
         for (let a = numeritos; a < numeritos2; a++) {
             if (a % 2 == 0) {
