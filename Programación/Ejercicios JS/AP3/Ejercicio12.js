@@ -1,12 +1,12 @@
-function descuento(a) {
+function descuento(precio) {
     a = readlineSync.questionInt("Que valor de descuento deseas aplicar? ")
     if (a > 20 || a < 0) {
         return "No es posible aplicar ese descuento"
     } else {
         a = a / 100
-        pregunta = pregunta * a;
+        precio = precio * a;
     }
-    return pregunta;
+    return precio;
 }
 
 function iva(precio) {
@@ -14,29 +14,19 @@ function iva(precio) {
     return precio;
 }
 
-let readlineSync, a, b, pregunta, precio;
+let readlineSync, precio;
 
 readlineSync = require("readline-sync");
 
 
 do {
 
-    pregunta = readlineSync.questionInt("Cuanto vale el producto? ");
-    if (pregunta > 0) {
+    precio = readlineSync.questionInt("Cuanto vale el producto? ");
+    if (precio > 0) {
 
-        precio = pregunta
-        pregunta = descuento(pregunta);
-
-        precio = precio - pregunta
-        precioTotal = precio
-
-        precio = iva(precio);
-        precioTotal = precioTotal + precio;
+        precio = precio - (descuento(precio));
+        precio = precio + (iva(precio));        
+        console.log("El precio final es: " + precio);
         
-        console.log("El precio final es: " + precioTotal);
-
     }
-
-
-
-} while (pregunta !== 0);
+} while (precio !== 0);
