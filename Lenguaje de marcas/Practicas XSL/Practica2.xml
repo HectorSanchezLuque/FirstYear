@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <colegio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNombrespaceSchemaLocation="Practica2.xslt">
+xsi:noNombrespaceSchemaLocation="alumnos1.xslt">
 
 	<alumno>
 		<nombre>Pepe</nombre>
@@ -22,5 +22,97 @@ xsi:noNombrespaceSchemaLocation="Practica2.xslt">
 		<telf>789</telf>
 		<fechaNacimiento>20/7/2000</fechaNacimiento>
 	</alumno>
+
+	<alumno>
+		<nombre>Alberto</nombre>
+		<poblacion>Algemesí</poblacion>
+		<telf>475</telf>
+		<fechaNacimiento>13/10/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Gustavo</nombre>
+		<poblacion>Valencia</poblacion>
+		<telf>376</telf>
+		<fechaNacimiento>27/2/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Omar</nombre>
+		<poblacion>Silla</poblacion>
+		<telf>096</telf>
+		<fechaNacimiento>13/9/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Martín</nombre>
+		<poblacion>Xativa</poblacion>
+		<telf>106</telf>
+		<fechaNacimiento>5/4/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>David</nombre>
+		<poblacion>Moixent</poblacion>
+		<telf>794</telf>
+		<fechaNacimiento>14/5/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Álvaro</nombre>
+		<poblacion>Silla</poblacion>
+		<telf>720</telf>
+		<fechaNacimiento>6/12/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Pablo</nombre>
+		<poblacion>Valencia</poblacion>
+		<telf>750</telf>
+		<fechaNacimiento>18/9/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Ximo</nombre>
+		<poblacion>Massanassa</poblacion>
+		<telf>829</telf>
+		<fechaNacimiento>28/3/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Alejandro</nombre>
+		<poblacion>Alfafar</poblacion>
+		<telf>738</telf>
+		<fechaNacimiento>10/7/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Alex</nombre>
+		<poblacion>Benetuser</poblacion>
+		<telf>923</telf>
+		<fechaNacimiento>29/1/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Luis</nombre>
+		<poblacion>Ademuz</poblacion>
+		<telf>143</telf>
+		<fechaNacimiento>2/4/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Ángel</nombre>
+		<poblacion>Benicarló</poblacion>
+		<telf>917</telf>
+		<fechaNacimiento>21/3/2000</fechaNacimiento>
+	</alumno>
+
+	<alumno>
+		<nombre>Juan</nombre>
+		<poblacion>Torrent</poblacion>
+		<telf>782</telf>
+		<fechaNacimiento>19/5/2000</fechaNacimiento>
+	</alumno>
+
 
 </colegio>

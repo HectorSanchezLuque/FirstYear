@@ -1,19 +1,20 @@
-function coordX() {
+function coordX(beta, alfa, t) {
     let x;
-    x = beta * Math.cos(alfa); // (beta * Math.cos(alfa) * t);
+    x = beta * Math.cos(alfa) * t; // (beta * Math.cos(alfa) * t);
     return x;
 }
 
-function coordY() {
-    let y;
-    y = (beta * Math.sin(alfa)); // (beta * Math.sin(alfa) *t) - 20 * t * t;
+function coordY(beta, alfa, t) {
+    let y, a;
+    a = 40 / 2;
+    y = ((beta * Math.sin(alfa) * t) - a * (t * t)); // (beta * Math.sin(alfa) *t) - 20 * t * t;
     return y;
 }
 
 
 // hacer un for para ir calculando t
 
-let readlineSync, alfa, beta, ejeX, ejeY, maxY, maxX, tTotal
+let readlineSync, alfa, beta, ejeX, ejeY, maxY, maxX, tTotal;
 tTotal = 0;
 ejeY = 100;
 maxX = 0;
@@ -30,7 +31,7 @@ if (alfa < 0 || alfa > piPartDos) {
 } else {
 
 
-    beta = readlineSync.questionInt("Dime la velocidad a la que se movera el proyectil ");
+    beta = readlineSync.questionFloat("Dime la velocidad a la que se movera el proyectil ");
 
     console.log("Tabla de lanzamiento para un tiro de incinación: ", alfa, "radianes y velocidad: ", beta, "m/s");
     console.log("Inicio de lanzamiento");
@@ -40,11 +41,11 @@ if (alfa < 0 || alfa > piPartDos) {
 
     for (let t = 0.1; ejeY > 0; t = t + 0.1) {
         tTotal = t;
-        ejeX = coordX() * t;
+        ejeX = coordX(beta, alfa, t);
         if (ejeX > maxX) {
             maxX = ejeX;
         }
-        ejeY = (coordY() * t) - 20 * (t * t);
+        ejeY = (coordY(beta, alfa, t));
         if (ejeY > maxY) {
             maxY = ejeY;
         }
