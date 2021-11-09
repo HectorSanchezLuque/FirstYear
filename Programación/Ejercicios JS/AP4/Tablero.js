@@ -1,8 +1,8 @@
-let arrayBidimensional = new Array (5);
+let arrayBidimensional = new Array (10);
 let matriz = "";
 
 for (let i = 0; i <arrayBidimensional.length; i++) {
-    arrayBidimensional[i] = new Array (5);
+    arrayBidimensional[i] = new Array (10);
 }
 
 for (let i = 0; i < arrayBidimensional.length; i++) {
@@ -12,7 +12,10 @@ for (let i = 0; i < arrayBidimensional.length; i++) {
     }
 
 }
-console.log(arrayBidimensional);
+for (let i = 0; i < arrayBidimensional.length; i++) {
+    console.log(arrayBidimensional[i].toString());
+}
+
 
 // for (let i = 0; i < arrayBidimensional.length; i++) {
 //     for (let j = 0; j < arrayBidimensional.length; j++) {
