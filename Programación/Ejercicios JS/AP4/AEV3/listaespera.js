@@ -7,7 +7,7 @@ function visualizarLista(arr) {
     console.log("LISTA DE ESPERA", "-", "Restaurante Florida's Hollywood");
     console.log("=================================================");
     for (let i = 0; i < arr.length; i++) {
-        console.log(" " + arr[i].toString())
+        console.log(" " + arr[i].toString());
     }
 }
 
@@ -21,7 +21,7 @@ function addClient(arr) {
 
     pregunta = readlineSync.question("Digame el nombre del cliente que desea agregar ");
     pregunta = pregunta.toUpperCase();
-    indice = arr.indexOf(pregunta)
+    indice = arr.indexOf(pregunta);
     if (indice == -1) {
         arr.push(pregunta);
     }
@@ -38,7 +38,7 @@ function addClient(arr) {
 
 function ocupMesa(arr) {
     console.log(arr[0], "debe ocupar la mesa disponible");
-    arr.shift()
+    arr.shift();
 }
 
 /**
@@ -50,7 +50,7 @@ function delClient(arr) {
 
     pregunta = readlineSync.question("Que cliente desea eliminar? ");
     pregunta = pregunta.toUpperCase();
-    indice = arr.indexOf(pregunta)
+    indice = arr.indexOf(pregunta);
 
     if (indice >= 0) {
         arr.splice(indice, 1);
@@ -68,7 +68,7 @@ function delClient(arr) {
 
 function turnoCliente(arr) {
     pregunta = readlineSync.question("Indique su nombre ");
-    pregunta = pregunta.toUpperCase()
+    pregunta = pregunta.toUpperCase();
 
     indice = arr.indexOf(pregunta);
 
@@ -88,22 +88,21 @@ let listaClientes = ["JUAN", "GUSTAVO", "LUIS", "VICTOR"];
 let arrayOpciones = new Array(8);
 let continuar;
 
-arrayOpciones[0] = "1. Agregar nuevo cliente a la lista."
-arrayOpciones[1] = "2. Siguiente cliente ocupa mesa."
-arrayOpciones[2] = "3. Borrar cliente impaciente."
-arrayOpciones[3] = "4. Ver turno de cliente."
-arrayOpciones[4] = "5. Ver estado de la lista de espera."
-arrayOpciones[5] = "6. Guardar la lista de espera."
-arrayOpciones[6] = "7. Recuperar la lista de espera."
-arrayOpciones[7] = "8. Salir del programa."
-
+arrayOpciones[0] = "1. Agregar nuevo cliente a la lista.";
+arrayOpciones[1] = "2. Siguiente cliente ocupa mesa.";
+arrayOpciones[2] = "3. Borrar cliente impaciente.";
+arrayOpciones[3] = "4. Ver turno de cliente.";
+arrayOpciones[4] = "5. Ver estado de la lista de espera.";
+arrayOpciones[5] = "6. Guardar la lista de espera.";
+arrayOpciones[6] = "7. Recuperar la lista de espera.";
+arrayOpciones[7] = "8. Salir del programa.";
 
 
 do {
     
     visualizarLista(arrayOpciones);
 
-    opcion = readlineSync.questionInt("Introduce opcion (1..8): ")
+    opcion = readlineSync.questionInt("Introduce opcion (1..8): ");
     
     if (opcion > 8 || opcion < 0) {
         console.log("Esa funcionalidad no existe");
@@ -135,14 +134,17 @@ do {
             break;
 
         case 5:
-            console.log("Visualizando lista");
+            console.log("Ha seleccionado < Ver estado de la lista de espera >");
             console.log(listaClientes);
             break;
+
+        case 6:
+
         
     }
-    continuar = readlineSync.keyInYN("Desea borrar la consola? ")
+    continuar = readlineSync.keyInYN("Desea borrar la consola? ");
     if (continuar == true) {
-        console.clear()
+        console.clear();
     }
     
 } while (opcion !== 8);
