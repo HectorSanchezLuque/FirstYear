@@ -4,6 +4,7 @@
  */
 
 function visualizarLista(arr) {
+
     console.log("LISTA DE ESPERA", "-", "Restaurante Florida's Hollywood");
     console.log("=================================================");
     for (let i = 0; i < arr.length; i++) {
@@ -21,7 +22,9 @@ function addClient(arr) {
 
     pregunta = readlineSync.question("Digame el nombre del cliente que desea agregar ");
     pregunta = pregunta.toUpperCase();
+
     indice = arr.indexOf(pregunta);
+
     if (indice == -1) {
         arr.push(pregunta);
     }
@@ -37,6 +40,7 @@ function addClient(arr) {
  */
 
 function ocupMesa(arr) {
+
     console.log(arr[0], "debe ocupar la mesa disponible");
     arr.shift();
 }
@@ -50,6 +54,7 @@ function delClient(arr) {
 
     pregunta = readlineSync.question("Que cliente desea eliminar? ");
     pregunta = pregunta.toUpperCase();
+
     indice = arr.indexOf(pregunta);
 
     if (indice >= 0) {
@@ -67,6 +72,7 @@ function delClient(arr) {
  */
 
 function turnoCliente(arr) {
+
     pregunta = readlineSync.question("Indique su nombre ");
     pregunta = pregunta.toUpperCase();
 
@@ -80,11 +86,39 @@ function turnoCliente(arr) {
     }
 }
 
+/**
+ * 
+ * @function {*} función para guardar los indices del array seleccionado en un archivo .txt 
+ */
 
+function guardarLista(arr) {
+
+    file = fs.openSync("listado.txt", "w");
+    fs.writeSync(file, arr.toString(), undefined, "utf-8");
+    fs.closeSync(file);
+}
+
+/**
+ * 
+ * @function {*} función para recuperar la lista anteriormente guardada en un documento de texto y asignar los datos guardados a un array
+ */
+
+function recuperarLista(arr) {
+
+    file = fs.openSync("listado.txt", "r");
+
+    lines = fs.readFileSync(file, "utf-8");
+    line = lines.split(",");
+
+    for (let i = 0; i < line.length; i++) {
+        arr[i] = line[i];
+    }
+    fs.closeSync(file);
+}
 
 let readlineSync = require("readline-sync");
 let fs = require("fs");
-let opcion, file, continuar, lines;
+let opcion, continuar;
 let listaClientes = new Array();
 let arrayOpciones = new Array(8);
 
@@ -109,30 +143,40 @@ do {
         console.log("Esa funcionalidad no existe");
     }
 
-
     switch (opcion) {
+
         case 1:
+
             console.log("Ha seleccionado < Agregar un nuevo Cliente >");
+
             addClient(listaClientes);
             break;
 
         case 2:
+
             console.log("Ha seleccionado < Siguiente cliente ocupa mesa >");
+
             ocupMesa(listaClientes);
             break;
 
         case 3:
+
             console.log("Ha seleccionado < Borrar cliente impaciente >");
+
             delClient(listaClientes);
             break;
 
         case 4:
+
             console.log("Ha seleccionado < Ver turno de cliente >");
+
             turnoCliente(listaClientes);
             break;
 
         case 5:
+
             console.log("Ha seleccionado < Ver estado de la lista de espera >");
+
             if (listaClientes[0] == undefined) {
                 console.log("La lista se encuentra vacia");
             } else {
@@ -141,23 +185,21 @@ do {
             break;
 
         case 6:
+
             console.log("Ha seleccionado < Guardar la lista de espera >");
-            file = fs.openSync("listado.txt", "w");
-            fs.writeSync(file, listaClientes.toString(), undefined, "utf-8");
-            fs.closeSync(file);
+
+            guardarLista(listaClientes);
+
             console.log("Su lista ha sido guardada");
             break;
 
         case 7:
+
             console.log("Ha seleccionado < Recuperar la lista de espera >");
-            file = fs.openSync("listado.txt", "r");
-            lines = fs.readFileSync(file, "utf-8");
-            line = lines.split(",");
-            for (let i = 0; i < line.length; i++) {
-                listaClientes[i] = line[i];
-            }
+
+            recuperarLista(listaClientes);
+            
             console.log("Su lista ha sido recuperada");
-            fs.closeSync(file);
             break;
 
 
@@ -168,3 +210,7 @@ do {
     }
 
 } while (opcion !== 8);
+
+
+
+
