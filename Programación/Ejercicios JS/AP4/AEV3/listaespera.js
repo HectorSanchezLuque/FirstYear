@@ -41,11 +41,14 @@ function addClient(arr) {
  */
 
 function ocupMesa(arr) {
+
     if (arr[0] == undefined) {
         console.log("Actualmente no hay clientes en la lista");
+
     } else {
-    console.log(arr[0], "debe ocupar la mesa disponible");
-    arr.shift();
+        console.log(arr[0], "debe ocupar la mesa disponible");
+
+        arr.shift();
     }
 }
 
@@ -56,18 +59,24 @@ function ocupMesa(arr) {
 
 function delClient(arr) {
 
-    pregunta = readlineSync.question("Que cliente desea eliminar? ");
-    pregunta = pregunta.toUpperCase();
+    if (arr[0] == undefined) {
+        console.log("Actualmente no hay clientes en la lista");
 
-    indice = arr.indexOf(pregunta);
+    } else {
 
-    if (indice >= 0) {
-        arr.splice(indice, 1);
+        pregunta = readlineSync.question("Que cliente desea eliminar? ");
+        pregunta = pregunta.toUpperCase();
+
+        indice = arr.indexOf(pregunta);
+
+        if (indice >= 0) {
+            arr.splice(indice, 1);
+        }
+        if (indice == -1) {
+            console.log("El cliente introducido no esta en la lista");
+        }
+        return arr;
     }
-    if (indice == -1) {
-        console.log("El cliente introducido no esta en la lista");
-    }
-    return arr;
 }
 
 /**
@@ -77,32 +86,39 @@ function delClient(arr) {
 
 function turnoCliente(arr) {
 
-if (arr[0] == undefined) {
-    console.log("Actualmente no hay clientes en la lista");
-} else {
-    pregunta = readlineSync.question("Indique su nombre ");
-    pregunta = pregunta.toUpperCase();
+    if (arr[0] == undefined) {
+        console.log("Actualmente no hay clientes en la lista");
 
-    indice = arr.indexOf(pregunta);
+    } else {
 
-    if (indice >= 0) {
-        posicion = arr.indexOf(pregunta);
-        console.log("Usted " + "(" + arr[indice] + ")", "esta en la posicion numero", indice + 1);
-    } if (indice == -1) {
-        console.log("Usted no se encuentra en la lista");
+        pregunta = readlineSync.question("Indique su nombre ");
+        pregunta = pregunta.toUpperCase();
+
+        indice = arr.indexOf(pregunta);
+
+        if (indice >= 0) {
+            posicion = arr.indexOf(pregunta);
+
+            console.log("Usted " + "(" + arr[indice] + ")", "esta en la posicion numero", indice + 1);
+
+        } if (indice == -1) {
+            console.log("Usted no se encuentra en la lista");
+        }
     }
-}
 }
 
 /**
  * 
  * @function {*} función para mostrar la lista y que si no hay, avise de que está vacía
  */
+
 function verLista(arr) {
-    if (listaClientes[0] == undefined) {
+
+    if (arr[0] == undefined || arr[0] == "") {
         console.log("Actualmente no hay clientes en la lista");
+
     } else {
-        console.log(listaClientes);
+        console.log(arr);
     }
 }
 
@@ -112,11 +128,36 @@ function verLista(arr) {
  */
 
 function guardarLista(arr) {
+    let pregunta;
 
-    file = fs.openSync("listado.txt", "w");
-    fs.writeSync(file, arr.toString(), undefined, "utf-8");
-    fs.closeSync(file);
+    if (listaClientes[0] == undefined || listaClientes[0] == "") {
+
+        pregunta = readlineSync.keyInYN("La lista esta vacia, desea guardarla de todas formas? ");
+
+        if (pregunta == true) {
+
+            file = fs.openSync("listado.txt", "w");
+            fs.writeSync(file, arr.toString(), undefined, "utf-8");
+            fs.closeSync(file);
+
+            console.log("Su lista ha sido guardada");
+
+        } else {
+            console.log("No se ha guardado la lista");
+        }
+    } else {
+
+        file = fs.openSync("listado.txt", "w");
+        lines = fs.readFileSync(file, "utf-8");
+
+        fs.writeSync(file, arr.toString(), undefined, "utf-8");
+        fs.closeSync(file);
+
+        console.log("Su lista ha sido guardada");
+
+    }
 }
+
 
 /**
  * 
@@ -129,22 +170,43 @@ function recuperarLista(arr) {
     file = fs.openSync("listado.txt", "r");
 
     lines = fs.readFileSync(file, "utf-8");
-    if (lines == "") {
-        console.log("El archivo esta vacio");
-    } else {
-    console.log("Su lista ha sido recuperada");
-    line = lines.split(",");
 
-    for (let i = 0; i < line.length; i++) {
-        arr[i] = line[i];
+    if (lines == "") {
+
+        console.log("El archivo esta vacio");
+        pregunta = readlineSync.keyInYN("Desea cargarlo de todos modos? ")
+
+        if (pregunta == true) {
+
+            console.log("Su lista ha sido recuperada");
+
+            line = lines.split(",");
+
+            for (let i = 0; i < line.length; i++) {
+                arr[i] = line[i];
+            }
+
+        } else {
+
+            console.log("La lista no se ha cargado");
+
+        }
+        
+    } else {
+        console.log("Su lista ha sido recuperada");
+
+            line = lines.split(",");
+
+            for (let i = 0; i < line.length; i++) {
+                arr[i] = line[i];
+            }
     }
-}
     fs.closeSync(file);
 }
 
 let readlineSync = require("readline-sync");
 const fs = require("fs");
-let opcion, continuar;
+let opcion, bConsola;
 let listaClientes = new Array();
 let arrayOpciones = new Array(8);
 
@@ -211,8 +273,6 @@ do {
             console.log("Ha seleccionado < Guardar la lista de espera >");
 
             guardarLista(listaClientes);
-
-            console.log("Su lista ha sido guardada");
             break;
 
         case 7:
@@ -224,8 +284,9 @@ do {
 
 
     }
-    continuar = readlineSync.keyInYN("Desea borrar la consola? ");
-    if (continuar == true) {
+    bConsola = readlineSync.keyInYN("Desea borrar la consola? ");
+
+    if (bConsola == true) {
         console.clear();
     }
 
