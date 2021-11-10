@@ -83,10 +83,11 @@ function turnoCliente(arr) {
 
 
 let readlineSync = require("readline-sync");
-let opcion;
-let listaClientes = ["JUAN", "GUSTAVO", "LUIS", "VICTOR"];
+let fs = require("fs");
+let opcion, file, continuar, lines;
+let listaClientes = new Array();
 let arrayOpciones = new Array(8);
-let continuar;
+
 
 arrayOpciones[0] = "1. Agregar nuevo cliente a la lista.";
 arrayOpciones[1] = "2. Siguiente cliente ocupa mesa.";
@@ -99,11 +100,11 @@ arrayOpciones[7] = "8. Salir del programa.";
 
 
 do {
-    
+
     visualizarLista(arrayOpciones);
 
     opcion = readlineSync.questionInt("Introduce opcion (1..8): ");
-    
+
     if (opcion > 8 || opcion < 0) {
         console.log("Esa funcionalidad no existe");
     }
@@ -113,19 +114,16 @@ do {
         case 1:
             console.log("Ha seleccionado < Agregar un nuevo Cliente >");
             addClient(listaClientes);
-            console.log(listaClientes);
             break;
 
         case 2:
             console.log("Ha seleccionado < Siguiente cliente ocupa mesa >");
             ocupMesa(listaClientes);
-            console.log(listaClientes);
             break;
 
         case 3:
             console.log("Ha seleccionado < Borrar cliente impaciente >");
             delClient(listaClientes);
-            console.log(listaClientes);
             break;
 
         case 4:
@@ -135,16 +133,38 @@ do {
 
         case 5:
             console.log("Ha seleccionado < Ver estado de la lista de espera >");
-            console.log(listaClientes);
+            if (listaClientes[0] == undefined) {
+                console.log("La lista se encuentra vacia");
+            } else {
+                console.log(listaClientes);
+            }
             break;
 
         case 6:
+            console.log("Ha seleccionado < Guardar la lista de espera >");
+            file = fs.openSync("listado.txt", "w");
+            fs.writeSync(file, listaClientes.toString(), undefined, "utf-8");
+            fs.closeSync(file);
+            console.log("Su lista ha sido guardada");
+            break;
 
-        
+        case 7:
+            console.log("Ha seleccionado < Recuperar la lista de espera >");
+            file = fs.openSync("listado.txt", "r");
+            lines = fs.readFileSync(file, "utf-8");
+            line = lines.split(",");
+            for (let i = 0; i < line.length; i++) {
+                listaClientes[i] = line[i];
+            }
+            console.log("Su lista ha sido recuperada");
+            fs.closeSync(file);
+            break;
+
+
     }
     continuar = readlineSync.keyInYN("Desea borrar la consola? ");
     if (continuar == true) {
         console.clear();
     }
-    
+
 } while (opcion !== 8);
