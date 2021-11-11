@@ -3,12 +3,25 @@
  * @function {*} función para mostrar el menú de opciones
  */
 
+
 function visualizarLista(arr) {
 
     console.log("LISTA DE ESPERA", "-", "Restaurante Florida's Hollywood");
-    console.log("=================================================");
-    for (let i = 0; i < arr.length; i++) {
-        console.log(" " + arr[i].toString());
+
+    arr[0] = "================================================="
+    arr[1] = "1. Agregar nuevo cliente a la lista.";
+    arr[2] = "2. Siguiente cliente ocupa mesa.";
+    arr[3] = "3. Borrar cliente impaciente.";
+    arr[4] = "4. Ver turno de cliente.";
+    arr[5] = "5. Ver estado de la lista de espera.";
+    arr[6] = "6. Guardar la lista de espera.";
+    arr[7] = "7. Recuperar la lista de espera.";
+    arr[8] = "8. Salir del programa.";
+    
+    console.log(arr[0]);
+
+    for (let i = 1; i <arr.length; i++) {
+        console.log(" " + arr[i]);
     }
 }
 
@@ -42,7 +55,7 @@ function addClient(arr) {
 
 function ocupMesa(arr) {
 
-    if (arr[0] == undefined) {
+    if (arr.length == 0) {
         console.log("Actualmente no hay clientes en la lista");
 
     } else {
@@ -51,7 +64,7 @@ function ocupMesa(arr) {
         arr.shift();
     }
 }
-
+/
 /**
  * 
  * @function {*} función que elimina a un cliente de la lista de espera
@@ -59,7 +72,7 @@ function ocupMesa(arr) {
 
 function delClient(arr) {
 
-    if (arr[0] == undefined) {
+    if (arr.length == 0) {
         console.log("Actualmente no hay clientes en la lista");
 
     } else {
@@ -86,7 +99,7 @@ function delClient(arr) {
 
 function turnoCliente(arr) {
 
-    if (arr[0] == undefined) {
+    if (arr.length == 0) {
         console.log("Actualmente no hay clientes en la lista");
 
     } else {
@@ -97,7 +110,6 @@ function turnoCliente(arr) {
         indice = arr.indexOf(pregunta);
 
         if (indice >= 0) {
-            posicion = arr.indexOf(pregunta);
 
             console.log("Usted " + "(" + arr[indice] + ")", "esta en la posicion numero", indice + 1);
 
@@ -112,9 +124,9 @@ function turnoCliente(arr) {
  * @function {*} función para mostrar la lista y que si no hay, avise de que está vacía
  */
 
-function verLista(arr) {
+function verListaActual(arr) {
 
-    if (arr[0] == undefined || arr[0] == "") {
+    if (arr.length == 0 || arr[0] == "") {
         console.log("Actualmente no hay clientes en la lista");
 
     } else {
@@ -130,7 +142,7 @@ function verLista(arr) {
 function guardarLista(arr) {
     let pregunta;
 
-    if (listaClientes[0] == undefined || listaClientes[0] == "") {
+    if (arr.length == 0 || listaClientes[0] == "") {
 
         pregunta = readlineSync.keyInYN("La lista esta vacia, desea guardarla de todas formas? ");
 
@@ -180,26 +192,18 @@ function recuperarLista(arr) {
 
             console.log("Su lista ha sido recuperada");
 
-            line = lines.split(",");
-
-            for (let i = 0; i < line.length; i++) {
-                arr[i] = line[i];
-            }
+            arr = lines.split(",");
 
         } else {
 
             console.log("La lista no se ha cargado");
 
         }
-        
+
     } else {
         console.log("Su lista ha sido recuperada");
 
-            line = lines.split(",");
-
-            for (let i = 0; i < line.length; i++) {
-                arr[i] = line[i];
-            }
+        arr = lines.split(",");
     }
     fs.closeSync(file);
 }
@@ -208,17 +212,7 @@ let readlineSync = require("readline-sync");
 const fs = require("fs");
 let opcion, bConsola;
 let listaClientes = new Array();
-let arrayOpciones = new Array(8);
-
-
-arrayOpciones[0] = "1. Agregar nuevo cliente a la lista.";
-arrayOpciones[1] = "2. Siguiente cliente ocupa mesa.";
-arrayOpciones[2] = "3. Borrar cliente impaciente.";
-arrayOpciones[3] = "4. Ver turno de cliente.";
-arrayOpciones[4] = "5. Ver estado de la lista de espera.";
-arrayOpciones[5] = "6. Guardar la lista de espera.";
-arrayOpciones[6] = "7. Recuperar la lista de espera.";
-arrayOpciones[7] = "8. Salir del programa.";
+let arrayOpciones = new Array();
 
 
 do {
@@ -265,7 +259,7 @@ do {
 
             console.log("Ha seleccionado < Ver estado de la lista de espera >");
 
-            verLista(listaClientes);
+            verListaActual(listaClientes);
             break;
 
         case 6:
@@ -285,13 +279,8 @@ do {
 
     }
     bConsola = readlineSync.keyInYN("Desea borrar la consola? ");
-
     if (bConsola == true) {
         console.clear();
     }
 
 } while (opcion !== 8);
-
-
-
-
