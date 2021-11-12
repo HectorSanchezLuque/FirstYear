@@ -1,6 +1,9 @@
+//Funciones
+
 /**
- * 
- * @function {*} función para mostrar el menú de opciones
+ * Función para mostrar el menú de opciones
+ * @param {Array.<string>} arr Array conteniente de la lista de clientes
+ * @returns {Array.<string>} Devuelve el menú
  */
 
 
@@ -17,18 +20,20 @@ function visualizarLista(arr) {
     arr[6] = "6. Guardar la lista de espera.";
     arr[7] = "7. Recuperar la lista de espera.";
     arr[8] = "8. Salir del programa.";
-    
+
     console.log(arr[0]);
 
-    for (let i = 1; i <arr.length; i++) {
+    for (let i = 1; i < arr.length; i++) {
         console.log(" " + arr[i]);
     }
+    return arr;
 }
 
 
 /**
- * 
- * @function {*} añadir clientes y comprobar que no haya ninguno repetido
+ *  Función que añade clientes y comprueba que no haya ninguno repetido
+ * @param {Array.<string>} arr Array que contiene la lista de clientes
+ * @returns {Array.<string>} Devuelve el array actualizado con un cliente más en caso de que no esté repetido
  */
 
 function addClient(arr) {
@@ -49,8 +54,8 @@ function addClient(arr) {
 }
 
 /**
- * 
- * @function {*} señala qué cliente debe ocupar la siguiente mesa y lo elimina de la lista 
+ * Señala qué cliente debe ocupar la siguiente mesa y lo elimina de la lista 
+ * @param {Array.<string>} arr Array que contiene la lista de clientes
  */
 
 function ocupMesa(arr) {
@@ -64,10 +69,11 @@ function ocupMesa(arr) {
         arr.shift();
     }
 }
-/
+
 /**
- * 
- * @function {*} función que elimina a un cliente de la lista de espera
+ * Función que elimina a un cliente de la lista de espera
+ * @param {Array.<string>} arr Array que contiene la lista de clientes
+ * @returns Devuelve el array actualizado con un cliente menos en caso de que el nombre introducido pertenezca a la lista
  */
 
 function delClient(arr) {
@@ -93,8 +99,8 @@ function delClient(arr) {
 }
 
 /**
- * 
- * @function {*} permite al cliente ver su posición en la cola
+ * Permite al cliente ver su posición en la cola
+ * @param {Array.<string>} arr Array que contiene la lista de clientes
  */
 
 function turnoCliente(arr) {
@@ -120,8 +126,8 @@ function turnoCliente(arr) {
 }
 
 /**
- * 
- * @function {*} función para mostrar la lista y que si no hay, avise de que está vacía
+ * Función para mostrar la lista y qué, si no hay, avise de que está vacía
+ * @param {Array.<string>} arr Array que contiene la lista de clientes
  */
 
 function verListaActual(arr) {
@@ -135,8 +141,8 @@ function verListaActual(arr) {
 }
 
 /**
- * 
- * @function {*} función para guardar los indices del array seleccionado en un archivo .txt 
+ * Función para guardar los indices del array seleccionado en un archivo .txt
+ * @param {Array.<string>} arr Array que contiene la lista de clientes
  */
 
 function guardarLista(arr) {
@@ -160,7 +166,6 @@ function guardarLista(arr) {
     } else {
 
         file = fs.openSync("listado.txt", "w");
-        lines = fs.readFileSync(file, "utf-8");
 
         fs.writeSync(file, arr.toString(), undefined, "utf-8");
         fs.closeSync(file);
@@ -172,41 +177,63 @@ function guardarLista(arr) {
 
 
 /**
- * 
- * @function {*} función para recuperar la lista anteriormente guardada en un documento de texto 2
- * y asignar los datos guardados a un array
+ * Función para recuperar la lista anteriormente guardada en un documento de texto y asignar dichos datos a un array
+ * @param {Array.<string>} arr Array que contiene la lista de clientes
+ * @returns Devuelve el Array con los datos del documento de texto
  */
 
 function recuperarLista(arr) {
 
-    file = fs.openSync("listado.txt", "r");
+    if (!fs.existsSync("listado.txt")) {
 
-    lines = fs.readFileSync(file, "utf-8");
+        console.log("El archivo no existe");
 
-    if (lines == "") {
-
-        console.log("El archivo esta vacio");
-        pregunta = readlineSync.keyInYN("Desea cargarlo de todos modos? ")
+        pregunta = readlineSync.keyInYN("Desea crear el archivo? ");
 
         if (pregunta == true) {
 
-            console.log("Su lista ha sido recuperada");
+            file = fs.openSync("listado.txt", "w");
 
-            arr = lines.split(",");
-
-        } else {
-
-            console.log("La lista no se ha cargado");
-
+            fs.closeSync(file);
         }
 
     } else {
-        console.log("Su lista ha sido recuperada");
 
-        arr = lines.split(",");
+        file = fs.openSync("listado.txt", "r");
+
+        lines = fs.readFileSync(file, "utf-8");
+
+        if (lines == "") {
+
+            console.log("El archivo esta vacio");
+
+            pregunta = readlineSync.keyInYN("Desea cargarlo de todos modos? ")
+
+            if (pregunta == true) {
+
+                console.log("Su lista ha sido recuperada");
+
+                arr = lines.split(",");
+
+            } else {
+
+                console.log("La lista no se ha cargado");
+
+            }
+
+        } else {
+           
+            console.log("Su lista ha sido recuperada");
+
+            arr = lines.split(",");
+        }
+        
+        fs.closeSync(file);
     }
-    fs.closeSync(file);
+    return arr;
 }
+
+//Programa principal
 
 let readlineSync = require("readline-sync");
 const fs = require("fs");
@@ -221,8 +248,8 @@ do {
 
     opcion = readlineSync.questionInt("Introduce opcion (1..8): ");
 
-    if (opcion > 8 || opcion < 0) {
-        console.log("Esa funcionalidad no existe");
+    if (opcion > 8 || opcion <= 0) {
+        console.log("No hay ninguna funcionalidad asignada a ese numero");
     }
 
     switch (opcion) {
@@ -273,11 +300,15 @@ do {
 
             console.log("Ha seleccionado < Recuperar la lista de espera >");
 
-            recuperarLista(listaClientes);
+            listaClientes = recuperarLista(listaClientes);
             break;
 
+        case 8:
+
+            console.log("Cerrando el programa");
 
     }
+
     bConsola = readlineSync.keyInYN("Desea borrar la consola? ");
     if (bConsola == true) {
         console.clear();
