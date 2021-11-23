@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<autores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNombrespaceSchemaLocation="escritoresIMPAR.xsd">
+
+<autor>
+	<nombre>Carlos Ruíz Zafón</nombre>
+		<libros>
+			<libro>
+				<titulo>La Sombra del viento</titulo>
+				<paginas>390</paginas>
+			</libro>
+			<libro>
+				<titulo>El prisionero del Cielo</titulo>
+				<paginas>420</paginas>
+			</libro>
+		</libros>
+	<idioma>Castellano</idioma>
+</autor>
+
+<autor>
+	<nombre>Arturo Pérez Reverte</nombre>
+		<libros>
+			<libro>
+				<titulo>Falcó</titulo>
+				<paginas>210</paginas>
+			</libro>
+			<libro>
+				<titulo>Eva</titulo>
+				<paginas>240</paginas>
+			</libro>
+		</libros>
+	<idioma>Castellano</idioma>
+</autor>
+</autores>

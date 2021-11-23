@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/escritoresIMPAR" xmlns:tns="http://www.example.org/escritoresIMPAR" elementFormDefault="qualified">
+
+	<xs:element name="autores">
+		<xs:complexType>
+		<xs:sequence>
+
+		<xs:element name="autor">
+			<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:string" maxOccurs="15"/>
+					<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-zA-Z]{*}"/>
+					</xs:restriction>
+					</xs:simpleType>
+						<xs:element name="libros">
+							<xs:complexType>
+							<xs:sequence>
+								<xs:element name="libro">
+									<xs:complexType>
+									<xs:sequence>
+										<xs:element name="titulo" type="xs:string" minOccurs= "1" maxOccurs="15"/>
+											<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:pattern value="[a-zA-Z]{*}"/>
+											</xs:restriction>
+											</xs:simpleType>
+										<xs:element name="paginas" type="xs:integer" minOccurs= "1" maxOccurs="15"/>
+											<xs:simpleType>
+											<xs:restriction base="xs:integer">
+												<xs:pattern value="[0-9]{*}"/>
+											</xs:restriction>
+											</xs:simpleType>
+									</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="idioma" type="xs:string" maxOccurs="15"/>
+							<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:pattern value="[a-zA-Z]{*}"/>
+							</xs:restriction>
+							</xs:simpleType>
+			</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+
+		</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</schema>
+	

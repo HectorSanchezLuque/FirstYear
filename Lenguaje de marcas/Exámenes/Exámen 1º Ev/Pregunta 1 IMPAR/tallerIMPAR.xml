@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<taller xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNombrespaceSchemaLocation="v1.xsl">
+
+	<coche>
+		<matricula>9876 ZXW</matricula>
+		<modelo>X1</modelo>
+		<marca>BMW</marca>
+		<importeReparacion>500</importeReparacion>
+	</coche>
+
+	<coche>
+		<matricula>5432 WZX</matricula>
+		<modelo>A3</modelo>
+		<marca>Audi</marca>
+		<importeReparacion>300</importeReparacion>
+	</coche>
+
+	<coche>
+		<matricula>1098 ZYX</matricula>
+		<modelo>X3</modelo>
+		<marca>BMW</marca>
+		<importeReparacion>350</importeReparacion>
+	</coche>
+
+	<coche>
+		<matricula>7654 YZX</matricula>
+		<modelo>A4</modelo>
+		<marca>Audi</marca>
+		<importeReparacion>400</importeReparacion>
+	</coche>
+
+</taller>
+	
