@@ -18,12 +18,6 @@ posicionX = 5;
 posicionY = 5;
 arrayBidimensional[posicionY][posicionX] = "x";
 
-
-
-
-
-
-
 do {
 
     for (let i = 0; i < arrayBidimensional.length; i++) {
