@@ -31,10 +31,11 @@ namespace Calculadora
         public static int Sumatorio(int num1) 
         {
             Random rnd = new Random();
-            int[] arrayNumeros = Array.Empty<int>();
+            int[] arrayNumeros = new int[num1];
             for (int i = 0; i < num1; i++)
             {
                 int num = rnd.Next();
+
                 arrayNumeros[i] = num;
                 
             }
