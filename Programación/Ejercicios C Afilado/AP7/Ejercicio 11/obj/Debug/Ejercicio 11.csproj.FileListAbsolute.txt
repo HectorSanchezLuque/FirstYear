@@ -1,0 +1,7 @@
+C:\Users\hesalu\source\repos\Ejercicio 11\bin\Debug\Ejercicio 11.exe.config
+C:\Users\hesalu\source\repos\Ejercicio 11\bin\Debug\Ejercicio 11.exe
+C:\Users\hesalu\source\repos\Ejercicio 11\bin\Debug\Ejercicio 11.pdb
+C:\Users\hesalu\source\repos\Ejercicio 11\obj\Debug\Ejercicio 11.csproj.AssemblyReference.cache
+C:\Users\hesalu\source\repos\Ejercicio 11\obj\Debug\Ejercicio 11.csproj.CoreCompileInputs.cache
+C:\Users\hesalu\source\repos\Ejercicio 11\obj\Debug\Ejercicio 11.exe
+C:\Users\hesalu\source\repos\Ejercicio 11\obj\Debug\Ejercicio 11.pdb

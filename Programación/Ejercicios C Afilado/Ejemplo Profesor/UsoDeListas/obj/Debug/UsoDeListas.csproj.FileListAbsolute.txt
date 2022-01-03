@@ -1,0 +1,34 @@
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\AP7. Ejercicios en C# - Programación estructurada\Solucion\UsoDeListas\bin\Debug\UsoDeListas.exe.config
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\AP7. Ejercicios en C# - Programación estructurada\Solucion\UsoDeListas\bin\Debug\UsoDeListas.exe
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\AP7. Ejercicios en C# - Programación estructurada\Solucion\UsoDeListas\bin\Debug\UsoDeListas.pdb
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\AP7. Ejercicios en C# - Programación estructurada\Solucion\UsoDeListas\obj\Debug\UsoDeListas.csprojAssemblyReference.cache
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\AP7. Ejercicios en C# - Programación estructurada\Solucion\UsoDeListas\obj\Debug\UsoDeListas.csproj.CoreCompileInputs.cache
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\AP7. Ejercicios en C# - Programación estructurada\Solucion\UsoDeListas\obj\Debug\UsoDeListas.exe
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\AP7. Ejercicios en C# - Programación estructurada\Solucion\UsoDeListas\obj\Debug\UsoDeListas.pdb
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\bin\Debug\UsoDeListas.exe.config
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\bin\Debug\UsoDeListas.exe
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\bin\Debug\UsoDeListas.pdb
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\obj\Debug\UsoDeListas.csprojAssemblyReference.cache
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\obj\Debug\UsoDeListas.csproj.CoreCompileInputs.cache
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\obj\Debug\UsoDeListas.exe
+L:\04. PROG - DAM 18-19\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\obj\Debug\UsoDeListas.pdb
+C:\Users\sgutierr\Desktop\UsoDeListas\UsoDeListas\bin\Debug\UsoDeListas.exe.config
+C:\Users\sgutierr\Desktop\UsoDeListas\UsoDeListas\bin\Debug\UsoDeListas.exe
+C:\Users\sgutierr\Desktop\UsoDeListas\UsoDeListas\bin\Debug\UsoDeListas.pdb
+C:\Users\sgutierr\Desktop\UsoDeListas\UsoDeListas\obj\Debug\UsoDeListas.csprojAssemblyReference.cache
+C:\Users\sgutierr\Desktop\UsoDeListas\UsoDeListas\obj\Debug\UsoDeListas.exe
+C:\Users\sgutierr\Desktop\UsoDeListas\UsoDeListas\obj\Debug\UsoDeListas.pdb
+F:\04. PROG - DAM 20-21\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\bin\Debug\UsoDeListas.exe.config
+F:\04. PROG - DAM 20-21\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\bin\Debug\UsoDeListas.exe
+F:\04. PROG - DAM 20-21\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\bin\Debug\UsoDeListas.pdb
+F:\04. PROG - DAM 20-21\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\obj\Debug\UsoDeListas.csprojAssemblyReference.cache
+F:\04. PROG - DAM 20-21\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\obj\Debug\UsoDeListas.csproj.CoreCompileInputs.cache
+F:\04. PROG - DAM 20-21\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\obj\Debug\UsoDeListas.exe
+F:\04. PROG - DAM 20-21\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas\obj\Debug\UsoDeListas.pdb
+J:\05. PROG 21-22\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas - copia\bin\Debug\UsoDeListas.exe.config
+J:\05. PROG 21-22\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas - copia\bin\Debug\UsoDeListas.exe
+J:\05. PROG 21-22\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas - copia\bin\Debug\UsoDeListas.pdb
+J:\05. PROG 21-22\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas - copia\obj\Debug\UsoDeListas.csproj.AssemblyReference.cache
+J:\05. PROG 21-22\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas - copia\obj\Debug\UsoDeListas.csproj.CoreCompileInputs.cache
+J:\05. PROG 21-22\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas - copia\obj\Debug\UsoDeListas.exe
+J:\05. PROG 21-22\Bloque2. Programación con VS.NET (C#)\05. Introducción a las colecciones en C#\UsoDeListas - copia\obj\Debug\UsoDeListas.pdb

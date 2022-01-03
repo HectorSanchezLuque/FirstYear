@@ -1,0 +1,7 @@
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 20\bin\Debug\Ejercicio 20.exe.config
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 20\bin\Debug\Ejercicio 20.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 20\bin\Debug\Ejercicio 20.pdb
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 20\obj\Debug\Ejercicio 20.csproj.AssemblyReference.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 20\obj\Debug\Ejercicio 20.csproj.CoreCompileInputs.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 20\obj\Debug\Ejercicio 20.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 20\obj\Debug\Ejercicio 20.pdb

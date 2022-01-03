@@ -1,0 +1,7 @@
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 16\bin\Debug\Ejercicio 16.exe.config
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 16\bin\Debug\Ejercicio 16.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 16\bin\Debug\Ejercicio 16.pdb
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 16\obj\Debug\Ejercicio 16.csproj.AssemblyReference.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 16\obj\Debug\Ejercicio 16.csproj.CoreCompileInputs.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 16\obj\Debug\Ejercicio 16.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 16\obj\Debug\Ejercicio 16.pdb

@@ -1,0 +1,7 @@
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 18\bin\Debug\Ejercicio 18.exe.config
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 18\bin\Debug\Ejercicio 18.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 18\bin\Debug\Ejercicio 18.pdb
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 18\obj\Debug\Ejercicio 18.csproj.AssemblyReference.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 18\obj\Debug\Ejercicio 18.csproj.CoreCompileInputs.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 18\obj\Debug\Ejercicio 18.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Ejercicio 18\obj\Debug\Ejercicio 18.pdb
