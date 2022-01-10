@@ -1,0 +1,8 @@
+C:\Users\Usuario\Desktop\Primer Año DAM\Programación\Ejercicios C Afilado\AP7\Ejercicio 30\bin\Debug\Ejercicio 30.exe.config
+C:\Users\Usuario\Desktop\Primer Año DAM\Programación\Ejercicios C Afilado\AP7\Ejercicio 30\bin\Debug\Ejercicio 30.exe
+C:\Users\Usuario\Desktop\Primer Año DAM\Programación\Ejercicios C Afilado\AP7\Ejercicio 30\bin\Debug\Ejercicio 30.pdb
+C:\Users\Usuario\Desktop\Primer Año DAM\Programación\Ejercicios C Afilado\AP7\Ejercicio 30\obj\Debug\Ejercicio 30.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Primer Año DAM\Programación\Ejercicios C Afilado\AP7\Ejercicio 30\obj\Debug\Ejercicio 30.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Desktop\Primer Año DAM\Programación\Ejercicios C Afilado\AP7\Ejercicio 30\obj\Debug\Ejercicio 30.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Primer Año DAM\Programación\Ejercicios C Afilado\AP7\Ejercicio 30\obj\Debug\Ejercicio 30.exe
+C:\Users\Usuario\Desktop\Primer Año DAM\Programación\Ejercicios C Afilado\AP7\Ejercicio 30\obj\Debug\Ejercicio 30.pdb
