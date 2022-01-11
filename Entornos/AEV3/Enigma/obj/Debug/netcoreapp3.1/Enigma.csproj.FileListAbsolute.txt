@@ -1,0 +1,28 @@
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.exe
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.deps.json
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.runtimeconfig.json
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.runtimeconfig.dev.json
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.dll
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.pdb
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.csproj.AssemblyReference.cache
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.AssemblyInfoInputs.cache
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.AssemblyInfo.cs
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.csproj.CoreCompileInputs.cache
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.dll
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.pdb
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.genruntimeconfig.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.deps.json
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.runtimeconfig.json
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.runtimeconfig.dev.json
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.dll
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.pdb
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.csproj.AssemblyReference.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.AssemblyInfoInputs.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.AssemblyInfo.cs
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.csproj.CoreCompileInputs.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.dll
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.pdb
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Entornos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.genruntimeconfig.cache

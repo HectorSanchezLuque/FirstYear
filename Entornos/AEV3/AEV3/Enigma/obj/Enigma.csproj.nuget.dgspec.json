@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hesalu\\Desktop\\Héctor Sánchez Luque (Primer año)\\Entornos\\AEV3\\AEV3\\Enigma\\Enigma.csproj": {}
+    "C:\\Users\\pmart\\source\\repos\\AEV3\\Enigma\\Enigma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hesalu\\Desktop\\Héctor Sánchez Luque (Primer año)\\Entornos\\AEV3\\AEV3\\Enigma\\Enigma.csproj": {
+    "C:\\Users\\pmart\\source\\repos\\AEV3\\Enigma\\Enigma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hesalu\\Desktop\\Héctor Sánchez Luque (Primer año)\\Entornos\\AEV3\\AEV3\\Enigma\\Enigma.csproj",
+        "projectUniqueName": "C:\\Users\\pmart\\source\\repos\\AEV3\\Enigma\\Enigma.csproj",
         "projectName": "Enigma",
-        "projectPath": "C:\\Users\\hesalu\\Desktop\\Héctor Sánchez Luque (Primer año)\\Entornos\\AEV3\\AEV3\\Enigma\\Enigma.csproj",
-        "packagesPath": "C:\\Users\\hesalu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hesalu\\Desktop\\Héctor Sánchez Luque (Primer año)\\Entornos\\AEV3\\AEV3\\Enigma\\obj\\",
+        "projectPath": "C:\\Users\\pmart\\source\\repos\\AEV3\\Enigma\\Enigma.csproj",
+        "packagesPath": "C:\\Users\\pmart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmart\\source\\repos\\AEV3\\Enigma\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hesalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pmart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

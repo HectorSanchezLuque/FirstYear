@@ -1,0 +1,7 @@
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Examen\MovimientoTablero\bin\Debug\MovimientoTablero.exe.config
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Examen\MovimientoTablero\bin\Debug\MovimientoTablero.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Examen\MovimientoTablero\bin\Debug\MovimientoTablero.pdb
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Examen\MovimientoTablero\obj\Debug\MovimientoTablero.csproj.AssemblyReference.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Examen\MovimientoTablero\obj\Debug\MovimientoTablero.csproj.CoreCompileInputs.cache
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Examen\MovimientoTablero\obj\Debug\MovimientoTablero.exe
+C:\Users\hesalu\Desktop\Héctor Sánchez Luque (Primer año)\Programación\Ejercicios C Afilado\AP7\Examen\MovimientoTablero\obj\Debug\MovimientoTablero.pdb
