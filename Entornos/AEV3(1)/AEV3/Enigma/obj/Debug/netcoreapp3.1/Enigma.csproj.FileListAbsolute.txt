@@ -1,0 +1,28 @@
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.exe
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.deps.json
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.runtimeconfig.json
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.runtimeconfig.dev.json
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.dll
+C:\Users\pmart\source\repos\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.pdb
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.csproj.AssemblyReference.cache
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.AssemblyInfoInputs.cache
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.AssemblyInfo.cs
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.csproj.CoreCompileInputs.cache
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.dll
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.pdb
+C:\Users\pmart\source\repos\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.exe
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.deps.json
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.runtimeconfig.json
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.dll
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\bin\Debug\netcoreapp3.1\Enigma.pdb
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.dll
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.pdb
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Entornos\AEV3\AEV3\Enigma\obj\Debug\netcoreapp3.1\Enigma.genruntimeconfig.cache
