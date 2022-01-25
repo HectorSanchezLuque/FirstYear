@@ -1,0 +1,11 @@
+ a:link {color: red;} 
+ a:visited {color: green;}
+ a:hover {color: yellow;}
+ a:active {color: blue;}
+
+#entrada1 {background-color: deepskyblue;border: 20px solid yellow; margin: 0px 640px;text-align:center;}
+
+#entrada2 {text-align:center; background-color: yellowgreen; margin: 25px 640px;}
+
+#entrada3 {background-color:white;border: 20px solid red; margin: 25px 640px;text-align:center; text-decoration: lightgray solid underline;}
+

@@ -18,5 +18,5 @@
 
 -- SELECT clie AS cliente, SUM(importe) AS Importe_total FROM pedidos GROUP BY clie ORDER BY Importe_total Desc;
 
-SELECT nombre, SUM(cant) AS Items_totales Into OUTFILE "C:\\XAMPP\\Datos.TXT" FROM repventas INNER JOIN pedidos ON rep=numempl GROUP BY rep; 
+-- educaSELECT nombre, SUM(cant) AS Items_totales Into OUTFILE "C:\\XAMPP\\Datos.TXT" FROM repventas INNER JOIN pedidos ON rep=numempl GROUP BY rep; 
 
