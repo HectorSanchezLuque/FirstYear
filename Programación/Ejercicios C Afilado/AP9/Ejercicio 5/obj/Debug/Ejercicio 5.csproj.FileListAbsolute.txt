@@ -1,0 +1,8 @@
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\AP9\Ejercicio 5\bin\Debug\Ejercicio 5.exe.config
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\AP9\Ejercicio 5\bin\Debug\Ejercicio 5.exe
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\AP9\Ejercicio 5\bin\Debug\Ejercicio 5.pdb
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\AP9\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\AP9\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\AP9\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\AP9\Ejercicio 5\obj\Debug\Ejercicio 5.exe
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\AP9\Ejercicio 5\obj\Debug\Ejercicio 5.pdb
