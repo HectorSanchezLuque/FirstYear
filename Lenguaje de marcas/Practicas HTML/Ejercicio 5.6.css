@@ -1,0 +1,42 @@
+h1 {text-align: center;
+	color:white;}
+h2 {text-align: center;
+	color:white;
+	margin:0px 0px 150px;
+	font-size: 40px}
+
+body {background-image: url(https://wallpaperset.com/w/full/9/8/4/144676.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;}
+
+
+#parrafo1 {color:white;
+		background-color: darkblue;
+		}
+
+#tabla1 {color:black;
+background-color: red;
+margin-left: 400px;
+border:collapse;}
+
+#div1 {position: absolute;}
+
+#div2 {position: absolute;}
+#div2 {position: absolute; margin-left:400px;}
+#div2 {position: absolute; margin-left:600px;}
+
+
+table, th, td 	{font-family: "Times New Roman, Times", serif;
+				font-style: italic;
+				color:white;
+				border: 1px solid black;
+				background-color: gray;
+				text-align: center;
+				margin-bottom: 50px}
+
+ul, li 	{font-family: "Times New Roman, Times", serif;
+				font-style: italic;
+				color:white;
+				border: 3px solid black;
+				background-color: gray;
+				text-align: center;}				
