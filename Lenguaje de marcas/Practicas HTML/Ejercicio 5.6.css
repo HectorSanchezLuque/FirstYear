@@ -15,7 +15,7 @@ body {background-image: url(https://wallpaperset.com/w/full/9/8/4/144676.jpg);
 	}
 #fuente {color: darkred;}
 
-#tabla1 {margin-top: 350px;
+#tabla1 {margin-top: 325px;
 margin-bottom: 30px;}
 #tabla3 {color:black;
 background-color: lightblue;
@@ -25,9 +25,10 @@ border:collapse;}
 
 #div1 {position: absolute;}
 
-#div2 {position: absolute; margin-top: 400px;}
-#div3 {position: absolute; margin-left:180px; margin-top: 400px;}
-#div4 {position: absolute; margin-left:350px; margin-top: 400px;}
+#div2 {position: absolute; margin-top: 390px;}
+#div3 {position: absolute; margin-left:180px; margin-top: 390px;}
+#div4 {position: absolute; margin-left:350px; margin-top: 390px;}
+#div5 {position: absolute; margin-left:1550px; margin-top: 415px;}
 
 
 
