@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ap4 Ej11", "Ap4 Ej11.csproj", "{F04A7444-7AE6-41AC-8F68-FA56EF565B80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04A7444-7AE6-41AC-8F68-FA56EF565B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04A7444-7AE6-41AC-8F68-FA56EF565B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04A7444-7AE6-41AC-8F68-FA56EF565B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04A7444-7AE6-41AC-8F68-FA56EF565B80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29EB6C58-6194-409D-A03D-A9B84223F664}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\Alex\Ap4 Ej11\bin\Debug\Ap4 Ej11.exe.config
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\Alex\Ap4 Ej11\bin\Debug\Ap4 Ej11.exe
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\Alex\Ap4 Ej11\bin\Debug\Ap4 Ej11.pdb
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\Alex\Ap4 Ej11\obj\Debug\Ap4 Ej11.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\Alex\Ap4 Ej11\obj\Debug\Ap4 Ej11.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\Alex\Ap4 Ej11\obj\Debug\Ap4 Ej11.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\Alex\Ap4 Ej11\obj\Debug\Ap4 Ej11.exe
+C:\Users\Usuario\Desktop\Programas DAM\Primer Año DAM\Programación\Ejercicios C Afilado\Alex\Ap4 Ej11\obj\Debug\Ap4 Ej11.pdb
